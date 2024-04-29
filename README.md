@@ -7,3 +7,4 @@ Each party must decide how to call the chatroom. For instance, if Alice and Bob 
 
 The common cryptographic key is used for authentication, while the actual encryption uses the Signal protocol. 
 
+The key must be communicated out of band. Optionally, the Crosspass app is integrated to assist with key transfer.
