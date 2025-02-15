@@ -15,3 +15,8 @@ Curverkey is as open source app. So far, the UX designs were completed. Develope
 See mockups
 
 
+## How it should be implemented
+
+The encryption key that is exchanged is used to as a key for HMAC to sign elements of protocol. The actual protocol must be the Signal protocol.
+
+Implement the mobile apps by using the Signal protocol library with a cross platform toolkit like React Native or Flutter.  Implement the server side using Note.js. Signal protocol implementation is open source, and is available for many platforms.
