@@ -17,6 +17,6 @@ See mockups
 
 ## How it should be implemented
 
-The encryption key that is exchanged is used to as a key for HMAC to sign elements of protocol. The actual protocol must be the Signal protocol.
+The exchanged encryption key is used as an HMAC key to sign elements of the protocol. The protocol itself must be the Signal protocol.
 
-Implement the mobile apps by using the Signal protocol library with a cross platform toolkit like React Native or Flutter.  Implement the server side using Note.js. Signal protocol implementation is open source, and is available for many platforms.
+For mobile apps, use the Signal protocol library with a cross-platform toolkit like React Native or Flutter. Implement the server-side using Node.js. The Signal protocol is open-source and available for many platforms.
